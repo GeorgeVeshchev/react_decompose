@@ -1,16 +1,15 @@
 import React from 'react';
+import Welcome from './components/Welcome/Welcome';
+import Header from './components/Header/Header';
+import Article from './components/Article/Article';
 import './App.css';
-import './components/Navigation/Navigation.css';
-import HeaderFile from './components/Header/Header';
-import ArcticleFile from './components/Article/Article';
-import WelcomeFile from './components/Welcome/Welcome';
 
 function App() {
   return (
     <main className="app">
-      <HeaderFile />
-      <WelcomeFile />
-      <ArcticleFile />
+      <Welcome />
+      <Header />
+      <Article />
     </main>
   );
 }

@@ -1,11 +1,12 @@
+import React from 'react';
 import './Welcome.css';
 
-const WelcomeFile = () => {
+function Welcome() {
   return (
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
     </section>
   );
-};
+}
 
-export default WelcomeFile;
+export default Welcome;
