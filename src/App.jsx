@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './components/Navigation/Navigation.css';
 import HeaderFile from './components/Header/Header';
 import ArcticleFile from './components/Article/Article';
 import WelcomeFile from './components/Welcome/Welcome';
